@@ -1,0 +1,532 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+
+ /* NAVIGATION BAR STYLING */
+.NAVIGATION{
+    position: sticky;
+    top: 0PX;
+    display: flex;
+    justify-content: space-between;
+    position: 
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+}
+/* 1ST BOX OF NAVIAGTION BAR ( AMAZON BAR ) STYLING */
+.logo{
+    text-align: center;
+    background-image:url("amazon.jpg");
+    height: 50px;
+    width: 113px;
+    background-size: cover;
+    
+}
+.nav-logo{
+    display: flex;
+    margin-left: 1pX;
+    padding: 1PX 8PX 0PX 6PX;
+    height: 55px;
+    width:120px;
+    padding-top: 15px;
+}
+.border{ border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px  solid white
+
+}
+ /* ADDRESS BOX STYLE ADD */
+ .NAV-ADDRESS{
+    height:100% ;
+    width: 90PX;
+    padding-top: 5px;
+    margin-bottom: 10px;
+ }
+
+.NAV-ADDRESS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 55PX;
+    width: 90PX;
+    margin-left: 10PX;
+    margin-right: 10PX;
+    margin-bottom: 2PX
+}
+
+.ADRS1{
+    font-size: 0.7rem;
+    margin: 0%;
+    color: #cccccc;
+    padding-bottom: 4px;
+}
+.ADRS2{
+    display: flex;
+    flex-direction: row; 
+    font-size: 1rem;
+}
+
+.fa-solid {
+
+    margin-right:3PX;
+}   
+/* Choose search bar */
+.SEARCH{
+    background-color: BLACK;
+    height: 60PX;
+    width: 455PX;
+    display: flex;
+    align-items: center;
+}
+.search-box{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
+    height:  40px;
+    width: 450px;
+    border-radius: 4px;
+    background-color:black;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px;
+    border: 1px solid black;
+
+}
+
+
+
+.search-select{
+    background-color:#f3f3f3;
+    height: 40PX;
+    width: 56px;
+    border: 0.8px 0px 0.8px 0.8px ;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px
+   
+}
+.search-select-option{
+    font-size: 0.8em;
+    height: 40PX;
+    width: 100%;
+    background-color: #f3f3f3;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px;
+    border: none
+}
+
+.search-placeholder{
+    font-size: 1em;
+    height: 40PX;
+    width: 100%;
+    border: none;
+    
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40PX;
+    width: 55px;
+    color: black;
+    background-color: rgb(240, 191, 76);
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px;
+}
+BUTTON{
+    border: NONE;
+    height: 40PX;
+    width: 55px;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px;
+}
+BUTTON:active{
+    height: 60px
+    width: 60PX;
+    background-color:RED;
+}
+.search-box:hover{
+    border: 2pX solid yeLLOW
+}
+
+
+
+/* hello sign in  bar */
+.nav-signin{
+    margin-left: 30px;
+    height: 55px;
+    width: 120px;
+    background-color:black
+    
+    
+}
+p{
+    margin: 0;
+}
+
+.sign-in-hello{
+    font-size: 13px;
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+    height: 30px;
+    width: 100%;
+    margin: none;
+
+}
+.signin-account{
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: first baseline;
+    margin: none;
+    height: 30px;
+    width: 100%;
+
+}
+/* returns and order bar */
+.nav-R-and-O{
+    margin-left: 30px;
+    height: 55px;
+    width: 120px;
+    background-color:black
+    
+    
+}
+p{
+    margin: 0;
+}
+
+.Returns{
+    font-size: 13px;
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+    height: 30px;
+    width: 100%;
+    margin: none;
+
+}
+.Orders{
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: first baseline;
+    margin: none;
+    height: 30px;
+    width: 100%;}
+
+.nav-cart {
+    display: flex;
+    justify-content:center;
+
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+     height: 55px;
+     width: 70px;
+     background-color:black;
+
+
+}
+.CART{
+    height: 55PX;
+    width: 89PX;
+    display: flex;
+    margin-right: 20PX;
+    background-color: black;
+}
+.cart-logo{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 55px;
+    width: 50px;
+    background-color: black;
+}
+.cart-name{
+    display: flex;
+    align-items: last baseline;
+    
+    height: 50px;
+    width: 30px;
+    background-color: black;
+}
+#cart-icon{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WE ARE STARTING THE  NAVIGATION BAR 2 */
+.NAVIGATION-TWO{
+   display: flex;
+    height: 35px;
+    width: 100%;
+    background-color: #222f3d;
+}
+
+.NAV-T-SHOP{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    align-items: center;
+    height: 35PX;
+    width: 550PX;
+    background-color:#222f3d;
+    
+}
+
+.shopping-filter{ 
+    padding-left: 15px;
+    height: 35px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    text-decoration: none;
+
+}
+.shopping-choice{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+
+}
+.shopping-choice:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+/* SECTION AREA */
+
+
+
+
+
+
+
+
+
+/* HERO SECTION */
+.HERO-SECTION{
+    background-image: url("heroimage.jpg");
+    background-size: cover;
+    height: 550PX;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.hero-content{
+    background-color: white;
+    height: 30px;
+    width: 80%;
+    margin-bottom:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.hero-content a{
+    color: skyblue;
+    
+}
+
+/* product section */
+
+.products{
+    height: 400px;
+    width: 100%;
+
+    background-color:#e2e7e6 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+.PRODUCT-BOX{
+    height: 350px;
+    width: 350px;
+    background-color: whit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+}
+    
+.product-image{
+    height: 280px;
+    width: 300px;
+    background-color: red;
+    padding: 10px 10px 0px0px;
+    background-size: cover;
+    
+}
+.PRODUCT-BOX p{
+    font-weight: 700;
+    font-size: 25px;
+}
+.PRODUCT-BOX a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.PRODUCT-BOX a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.PRODUCT-BOX:hover{
+    border: 2px solid black;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Heading towards the footer */
+
+
+.footer-1{
+    background-color: #222f3d;
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}.footer-1 p{
+    font-size: 20px;
+}
+.footer-2{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    background-color:#37475a;
+    padding-top: 20px ;
+    padding-bottom:50px ;
+}
+.list-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 136px;
+    
+    background-color:#37475a;
+}
+.list-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+    background-color:#37475a;
+}
+.list-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 250px;
+    background-color:#37475a;
+}
+.footer-2 h1{
+    margin: 0;
+    padding: 0;
+}
+ul {display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-content: space-evenly;
+}
+
+
+ul p{
+    font-size:20px ;
+    font-weight: 600;
+}
+ul a{
+    padding: 6px;
+    display: block;
+    font-size: 10px;
+}
+ul a:hover{
+    color: grey;
+}
+ul a:active{
+    font-size: 12px;
+}
+
+
